@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louise's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Great+Vibes&family=Allura&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+  <img src="images/logo.png" alt="Logo">
+</a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#services" class="nav-link" data-section="services">Services</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#reviews" class="nav-link" data-section="reviews">Reviews</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="section hero-section">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/lj1.jpg" alt="Cover Photo" class="cover-photo">
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">
+                        <span>Louise Merino</span>
+                </h1>
+                <p class="hero-subtitle">I'm a <span class="role-text" id="roleText">Virtual Assistant</span><span class="cursor">_</span></p>
+                <p class="hero-description">I am a self-motivated and trusted Virtual Assistant with a proven track record of helping businesses grow. My journey began in 2019 as a freelancer, which eventually led me to professional roles in customer service and corporate training. Now that I am based in Australia taking my Master's degree, I am excited to offer my expertise and digital services to help you streamline your business operations.
+</p>
+                <div class="hero-buttons">
+                    <a href="https://calendly.com/louisejoryn/60-mins" target="_blank" class="btn btn-primary">
+    Work With Me
+</a>
+                    <button class="btn btn-secondary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">View Projects</button>
+                </div>
+                <div class="hero-social">
+                    <a href="https://facebook.com/eljaeymerinoii" target="_blank" class="social-icon" title="Facebook">
+                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 
+    5.373-12 12c0 5.99 4.388 10.954 10.125 
+    11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 
+    1.792-4.669 4.533-4.669 1.312 0 2.686.235 
+    2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 
+    1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 
+    23.027 24 18.062 24 12.073z"/>
+  </svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@pinaylouise_au" target="_blank" class="social-icon" title="TikTok">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M21 8.5a7.5 7.5 0 0 1-4.5-1.5V14a6 6 0 1 1-6-6c.3 
+    0 .6 0 .9.1v3a3 3 0 1 0 2.1 2.9V2h3a4.5 4.5 0 0 0 4.5 
+    4.5v2z"/>
+  </svg>
+                    </a>
+                    <a href="https://upwork.com/freelancers/levelupwithlouise?mp_source=share" target="_blank" class="social-icon" title="Upwork">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M18.5 7.5c-1.5 0-2.8.9-3.5 2.2l-.5-1.7h-3l1.7 
+    6.2c-.3 1.1-1.3 1.9-2.5 1.9-1.4 0-2.5-1.1-2.5-2.5V8H5v5.6C5 
+    17 7.2 19 10 19c2 0 3.7-1.1 4.6-2.7.9 1.6 2.6 2.7 4.6 
+    2.7 2.8 0 5-2.2 5-5s-2.2-5-5-5zm0 7.5c-1.4 
+    0-2.5-1.1-2.5-2.5S17.1 10 18.5 10s2.5 1.1 
+    2.5 2.5-1.1 2.5-2.5 2.5z"/>
+  </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
+    <section class="about-section" id="about">
+    <div class="about-container">
+        <div class="about-left">
+            <h3>Hi there,</h3>
+            <h1>I’m Louise!</h1>
+
+            <p>
+                I am a digital all-rounder with over 6 years of experience helping
+                businesses from multiple industries like pet industry, fitness,
+                real estate, crypto, corporate, and travel services.
+            </p>
+
+            <p>
+                Right now I am based in Australia pursuing my master’s in business analytics.
+                I enjoy diving into data science, SQL, and Python to bring a more technical
+                and analytical edge to the digital services I provide.
+            </p>
+
+            <h2 class="working-title">Working with me</h2>
+
+            <p class="working-text">
+                To ensure I deliver high quality and proven results while finishing my degree,
+                I currently only accept project-based work. I work with a limited number of
+                clients to guarantee my full focus and top-tier deliverables.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="about-buttons">
+                <a href="#projects" class="btn primary">Check My Work</a>
+                <a href="https://calendly.com/louisejoryn/60-mins" target="_blank" class="btn secondary">Book a Consultation</a>
+            </div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="about-right">
+            <img src="images/lj2.jpg" alt="Profile">
+        </div>
+
+    </div>
+
+</section>
+    <section class="services-section" id="services">
+  <div class="container">
+    <h2 class="services-title">SERVICES OFFERED</h2>
+
+    <div class="services-grid">
+
+      <!-- PACKAGE 1 -->
+      <div class="service-card">
+        <img src="images/package1.jpg" alt="Package 1" class="service-image">
+
+        <div class="service-content">
+          <h3>PACKAGE 1</h3>
+          <span class="service-badge">The Start-Up Kickstart</span>
+
+          <ul>
+            <li>Website: Professional site setup (Home, About, Services, Contact).</li>
+            <li>Branding Kit: Your logo, colors, and fonts so everything matches.</li>
+            <li>Social Media Setup: I'll set up your account so you can use it instantly.</li>
+            <li>1 Month Content: I'll handle your posting for the first 30 days.</li>
+            <li>Brand-aligned captions that are proven to get people reading.</li>
+            <li class="freebie">🎁 Freebie: Content Guide Sheet.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PACKAGE 2 -->
+      <div class="service-card">
+        <img src="images/package2.jpg" alt="Package 2" class="service-image">
+
+        <div class="service-content">
+          <h3>PACKAGE 2</h3>
+          <span class="service-badge">Monthly Content Calendar</span>
+
+          <ul>
+            <li>1 Month of Content: I plan and create your content calendar.</li>
+            <li>Full Variety: Stories, Carousels, Videos, and Graphics.</li>
+            <li>Captions Included: Everything is ready to hit "publish."</li>
+            <li class="freebie">🎁 Freebie: Set of Story Templates you can easily use yourself.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- PACKAGE 3 -->
+      <div class="service-card">
+        <img src="images/package3.jpg" alt="Package 3" class="service-image">
+
+        <div class="service-content">
+          <h3>PACKAGE 3</h3>
+          <span class="service-badge">Video-Only Service</span>
+
+          <ul>
+            <li>Short-form Content: I take your long video and find the best parts.</li>
+            <li>The Extraction: You give me the full video; I give you ready-to-post clips.</li>
+            <li>Platform Ready: Edited specifically for Reels, TikTok, or Shorts.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PACKAGE 4 -->
+      <div class="service-card">
+        <img src="images/package4.jpg" alt="Package 4" class="service-image">
+
+        <div class="service-content">
+          <h3>PACKAGE 4</h3>
+          <span class="service-badge">Alacarte (Add these to any package)</span>
+
+          <ul>
+            <li>Copywriting: SEO articles for your blog or high-level social media posts.</li>
+            <li>Branding Kit: Just the logos, colors, and fonts.</li>
+            <li>Video / Audio clean-up polish: Perfect for Spotify or other content.</li>
+            <li>Extra Tasks: Other social media tasks you need help with.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section id="projects" class="section projects-section">
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Showcase of my latest work across design, video editing, and creative projects</p>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="video">Services</button>
+        </div>
+        
+        <div class="projects-grid" id="projectsGrid">
+
+            <!-- Design 1 -->
+            <div class="project-card" data-category="design" data-project-id="1">
+                <div class="project-image">
+                    <img src="images/31.jpg" alt="Brand Identity Design">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>The Launchpad</h3>
+                            <p>Everything you need to go from "just an idea" to a professional brand. Tailored for new ventures or existing businesses ready for a complete digital transformation. </p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Design</span>
+            </div>
+
+            <!-- Video 1 -->
+            <div class="project-card" data-category="video" data-project-id="2">
+                <div class="project-image">
+                    <img src="images/1.jpg" alt="Product Video Showcase">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Need help building your brand identity?</h3>
+                            <p>I can help you!</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Services</span>
+            </div>
+
+            <!-- Design 2 -->
+            <div class="project-card" data-category="design" data-project-id="3">
+                <div class="project-image">
+                    <img src="images/34.jpg" alt="Social Media Graphics">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>The Content Calendar</h3>
+                            <p>Reclaim your time. We strategize, design, and schedule a full month of cohesive content tailored to your business goals.</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Design</span>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="project-card" data-category="video" data-project-id="4">
+                <div class="project-image">
+                    <img src="images/2.jpg" alt="Corporate Video">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Need help with your daily contents?</h3>
+                            <p>I can help you! </p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Services</span>
+            </div>
+
+            <!-- Design 3 -->
+            <div class="project-card" data-category="design" data-project-id="5">
+                <div class="project-image">
+                    <img src="images/33.jpg" alt="UI/UX Design">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Viral Hooks & Edits</h3>
+                            <p>High-impact vertical video for service-based creators. We turn your expertise into scroll-stopping reels and TikToks.</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Design</span>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="project-card" data-category="video" data-project-id="6">
+                <div class="project-image">
+                    <img src="images/3.jpg" alt="Event Highlight Reel">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Need help editing your videos?</h3>
+                            <p>I can help you!</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Services</span>
+            </div>
+
+            <!-- ✅ NEW: Design 4 -->
+            <div class="project-card" data-category="design" data-project-id="7">
+                <div class="project-image">
+                    <img src="images/35.jpg" alt="Print & Publication Design">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Product Menu</h3>
+                            <p>Upgrade your aesthetic. Professional-grade product displays and promotional layouts designed to convert viewers into customers.</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Design</span>
+            </div>
+
+            <div class="project-card" data-category="video" data-project-id="8">
+                <div class="project-image">
+                    <img src="images/4.jpg" alt="Short Film Edit">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Need help building your website?</h3>
+                            <p>I can help you!</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Services</span>
+            </div>
+
+            <!-- ✅ NEW: Design 5 -->
+            <div class="project-card" data-category="design" data-project-id="9">
+                <div class="project-image">
+                    <img src="images/38.jpg" alt="Packaging Design">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>The Creative Blueprint</h3>
+                            <p>A no-fluff, easy-to-follow roadmap. Get a custom strategy that is ready for immediate implementation and designed for measurable results.</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Design</span>
+            </div>
+
+            <div class="project-card" data-category="video" data-project-id="10">
+                <div class="project-image">
+                    <img src="images/5.jpg" alt="Short Film Edit">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Need help increasing your engagement?</h3>
+                            <p>I can help you!</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Services</span>
+            </div>
+
+            <div class="project-card" data-category="design" data-project-id="11">
+                <div class="project-image">
+                    <img src="images/36.jpg" alt="Packaging Design">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Digital Kit</h3>
+                            <p>Designed for the entrepreneur who is ready to scale. This ultimate tool kit provides the essential assets and style guides needed to execute flawlessly across social media and print.</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Design</span>
+            </div>
+
+            <div class="project-card" data-category="video" data-project-id="12">
+                <div class="project-image">
+                    <img src="images/6.jpg" alt="Short Film Edit">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Need help with your digital task?</h3>
+                            <p>I can help you!</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Services</span>
+            </div>
+            
+            <div class="project-card" data-category="design" data-project-id="13">
+                <div class="project-image">
+                    <img src="images/32.jpg" alt="Packaging Design">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Event Digital Suite</h3>
+                            <p>Comprehensive digital coverage for your next event. From teaser campaigns to live event assets, we ensure your brand shines.</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Design</span>
+            </div>
+
+            <div class="project-card" data-category="video" data-project-id="14">
+                <div class="project-image">
+                    <img src="images/7.jpg" alt="Short Film Edit">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Need help making your brand sound more like you?</h3>
+                            <p>I can help you!</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Services</span>
+            </div>
+
+            <div class="project-card" data-category="design" data-project-id="15">
+                <div class="project-image">
+                    <img src="images/37.jpg" alt="Packaging Design">
+                    <div class="project-overlay">
+                        <div class="overlay-content">
+                            <h3>Social Media Audit</h3>
+                            <p>Stop guessing and start growing. A deep-dive analysis of your current performance with actionable insights to fix your engagement gaps.</p>
+                            <button class="btn btn-small project-btn">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="project-category">Design</span>
+            </div>
+            
+        </div>
+    </div>
+</section>
+    <section id="reviews" class="section reviews-section">
+        <div class="container">
+            <h2 class="section-title">Client Reviews</h2>
+            <p class="section-subtitle">What my clients feedbacks about working with me</p>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Louise has been wonderful to work with and an absolute asset to my business. Over the months we worked together, I saw a clear and positive difference in our social media, from improved consistency and quality through to a stronger, more aligned brand presence overall."</p>
+                    <div class="reviewer-info">
+                        <div>
+                            <h4>- Client from Upwork</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Working with Louise was an absolute pleasure. She is incredibly responsive, proactive, and kind, which made the entire process smooth and enjoyable. On top of that, her video editing skills are outstanding — she created some truly beautiful shorts that exceeded my expectations. I really appreciated how she anticipated needs, brought creative ideas, and delivered with high quality. I would rehire her again any time without hesitation!"</p>
+                    <div class="reviewer-info">
+                        <div>
+                            <h4>- Client from Upwork</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Louise was an absolute pleasure to work with. I ran 3 test projects for this role, and she was by far the best. She is communicative, kind, and her attention to detail is exceptional. I am only closing this job to offer her an ongoing role. Thank you Louise!"</p>
+                    <div class="reviewer-info">
+                        <div>
+                            <h4>- Client from Upwork</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Louise is great. Enjoyed working with her."</p>
+                    <div class="reviewer-info">
+                        <div>
+                            <h4>- Client from Upwork</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Exceptional graphic design work! The visual identity we created together has really elevated our brand. Highly professional and creative!"</p>
+                    <div class="reviewer-info">
+                        <div>
+                            <h4>- Client from Upwork</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Incredible freelancer! Delivered all projects on time with exceptional quality. Communication was clear and professional throughout. Definitely hiring again!"</p>
+                    <div class="reviewer-info">
+                        <div>
+                            <h4>- Client from Upwork</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta-section">
+    <div class="cta-overlay"></div>
+
+    <div class="cta-content">
+
+        <div class="cta-text">
+            <p>Need help with your business?</p>
+            <h2>LET’S WORK TOGETHER</h2>
+            <a href="https://calendly.com" target="_blank" class="cta-btn">Book a Call</a>
+        </div>
+    </div>
+</section>
+    
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modalClose" id="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-media" id="modalMedia">
+
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle">Project Title</h2>
+                    <p id="modalDescription">Project description goes here</p>
+                    <div class="modal-details">
+                        <div class="detail-item">
+                            <h4>Category</h4>
+                            <p id="modalCategory">Design</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Year</h4>
+                            <p id="modalYear">2024</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Tools</h4>
+                            <p id="modalTools">Adobe Suite</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

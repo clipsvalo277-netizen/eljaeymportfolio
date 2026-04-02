@@ -82,7 +82,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #81643f;
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 0.95rem;
     position: relative;
@@ -104,12 +104,6 @@ body {
 .nav-link.active::after {
     width: 100%;
 }
-
-.nav-link:hover,
-.nav-link.active {
-    color: var(--primary-pink);
-}
-
 .hamburger {
     display: none;
     flex-direction: column;
@@ -184,7 +178,7 @@ li {
 .hero-title {
     font-family: 'Poppins', sans-serif;
     font-size: 3.7rem;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     font-weight: 800;
     color: #4e2e0f;
     line-height: 1.1;
@@ -212,7 +206,7 @@ li {
 .hero-subtitle {
     font-size: 1.5rem;
     color: var(--muted-text);
-    margin-bottom: 1.5rem;
+    margin-bottom: 0rem;
     font-weight: 500;
 }
 
@@ -225,7 +219,7 @@ li {
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--muted-text);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.8;
 }
 
